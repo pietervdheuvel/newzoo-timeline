@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Timelify | Simple Timeline plugin</title>
+	<link href="http://fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300,800" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/timelify.css">
+</head>
+<body>
+<div class="container">
+	<div class="timeline">
+        {% for task in tasks %}
+    		<h2>2013</h2>
+    		<ul class="timeline-items">
+    			<li class="is-hidden timeline-item"> <!-- Normal block, positionned to the left -->
+    				<h3>{{ task.title }}</h3>
+    				<hr>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cupiditate, delectus deserunt doloribus earum eveniet explicabo fuga iste magni maxime mollitia nemo neque, perferendis quod reprehenderit ut, vel veritatis voluptas?</p>
+    				<hr>
+    				<time>January 2013</time>
+    			</li>
+            </ul>
+        {% endfor %}
+		</ul>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.timelify.js"></script>
+<script>
+	$('.timeline').timelify({
+			animLeft: "fadeInLeft",
+		animCenter: "fadeInUp",
+		animRight: "fadeInRight",
+		animSpeed: 600,
+		offset: 150
+	});
+</script>
+</body>

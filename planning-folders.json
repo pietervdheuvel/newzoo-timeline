@@ -1,0 +1,47 @@
+{
+    "kind": "folderTree",
+    "data": [
+        {
+            "id": "IEABSK6ZI4GJEBSR",
+            "title": "Company Planning",
+            "childIds": [
+                "IEABSK6ZI4GL6T76",
+                "IEABSK6ZI4GL64AJ",
+                "IEABSK6ZI4GL6Z4J",
+                "IEABSK6ZI4GL6Z4X",
+                "IEABSK6ZI4GL62IE"
+            ],
+            "scope": "WsFolder"
+        },
+        {
+            "id": "IEABSK6ZI4GL6T76",
+            "title": "Events",
+            "childIds": [],
+            "scope": "WsFolder"
+        },
+        {
+            "id": "IEABSK6ZI4GL64AJ",
+            "title": "Market Analysts",
+            "childIds": [],
+            "scope": "WsFolder"
+        },
+        {
+            "id": "IEABSK6ZI4GL6Z4X",
+            "title": "Sales",
+            "childIds": [],
+            "scope": "WsFolder"
+        },
+        {
+            "id": "IEABSK6ZI4GL6Z4J",
+            "title": "Marketing",
+            "childIds": [],
+            "scope": "WsFolder"
+        },
+        {
+            "id": "IEABSK6ZI4GL62IE",
+            "title": "Research",
+            "childIds": [],
+            "scope": "WsFolder"
+        }
+    ]
+}
